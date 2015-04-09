@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="57384d2a-0399-47f9-9129-aabbf9e39ea1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/solution/RotateArray189.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/solution/FactorialTrailingZeroes172.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="LeetCode-Java.iws" />
@@ -92,11 +92,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RotateArray189.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="RotateArray189.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leetcode/solution/RotateArray189.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.53586954" vertical-offset="0" max-vertical-offset="920">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="629">
               <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FactorialTrailingZeroes172.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/solution/FactorialTrailingZeroes172.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.092391305" vertical-offset="0" max-vertical-offset="920">
+              <caret line="5" column="39" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -121,6 +131,7 @@
         <option value="$PROJECT_DIR$/src/leetcode/solution/Numberof1Bits191.java" />
         <option value="$PROJECT_DIR$/src/leetcode/solution/ReverseBits190.java" />
         <option value="$PROJECT_DIR$/src/leetcode/solution/RotateArray189.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/solution/FactorialTrailingZeroes172.java" />
       </list>
     </option>
   </component>
@@ -449,8 +460,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/solution/RotateArray189.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.53586954" vertical-offset="0" max-vertical-offset="920">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="629">
           <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/solution/FactorialTrailingZeroes172.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.092391305" vertical-offset="0" max-vertical-offset="920">
+          <caret line="5" column="39" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="39" />
           <folding />
         </state>
       </provider>
