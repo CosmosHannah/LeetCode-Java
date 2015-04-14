@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="57384d2a-0399-47f9-9129-aabbf9e39ea1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/solution/PascalsTriangleII.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/solution/ImplementstrStr.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="LeetCode-Java.iws" />
@@ -83,6 +83,7 @@
         <option value="$PROJECT_DIR$/src/leetcode/solution/BinaryTreePreorderTraversal.java" />
         <option value="$PROJECT_DIR$/src/leetcode/solution/BinaryTreeInorderTraversal.java" />
         <option value="$PROJECT_DIR$/src/leetcode/solution/PascalsTriangleII.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/solution/ImplementstrStr.java" />
       </list>
     </option>
   </component>
@@ -629,6 +630,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.36956522" vertical-offset="0" max-vertical-offset="920">
           <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/solution/ImplementstrStr.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5543478" vertical-offset="0" max-vertical-offset="920">
+          <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
           <folding />
         </state>
       </provider>
