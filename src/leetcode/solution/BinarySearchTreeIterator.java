@@ -26,41 +26,41 @@ public class BinarySearchTreeIterator {
 
 }
 
-public class BSTIterator {
-
-    Stack<TreeNode> stack;
-
-    public BSTIterator(TreeNode root) {
-        stack = new Stack<TreeNode>();
-        TreeNode t = root;
-
-        while(t!=null)
-        {
-            stack.push(t);
-            t = t.left;
-        }
-
-    }
-
-    /** @return whether we have a next smallest number */
-    public boolean hasNext() {
-        return !stack.isEmpty();
-    }
-
-    /** @return the next smallest number */
-    public int next() {
-
-        TreeNode node = stack.pop();
-        if(node.right!=null)
-        {
-            stack.push(node.right);
-            while(node.left!=null)
-            {
-                stack.push(node.left);
-                node = node.left;
-            }
-        }
-        return node.val;
-
-    }
-}
+// public class BSTIterator {
+//
+//    Stack<TreeNode> stack;
+//
+//    public BSTIterator(TreeNode root) {
+//        stack = new Stack<TreeNode>();
+//        TreeNode t = root;
+//
+//        while(t!=null)
+//        {
+//            stack.push(t);
+//            t = t.left;
+//        }
+//
+//    }
+//
+//    /** @return whether we have a next smallest number */
+//    public boolean hasNext() {
+//        return !stack.isEmpty();
+//    }
+//
+//    /** @return the next smallest number */
+//    public int next() {
+//
+//        TreeNode node = stack.pop();
+//        if(node.right!=null)
+//        {
+//            stack.push(node.right);
+//            while(node.left!=null)
+//            {
+//                stack.push(node.left);
+//                node = node.left;
+//            }
+//        }
+//        return node.val;
+//
+//    }
+//}
