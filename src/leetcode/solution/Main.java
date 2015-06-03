@@ -8,8 +8,7 @@ public class Main {
       //  num[0] = 1;
         //Permutations.permute(num);
 
-        int[][] a = new int[1][1];
-        a[0][0] = 0;
-        UniquePathsII.uniquePathsWithObstacles(a);
+        ListNode l = new ListNode(1);
+        RemoveLinkedListElements.removeElements(l,2);
     }
 }
