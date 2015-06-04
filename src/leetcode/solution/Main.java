@@ -8,7 +8,15 @@ public class Main {
       //  num[0] = 1;
         //Permutations.permute(num);
 
-        ListNode l = new ListNode(1);
-        RemoveLinkedListElements.removeElements(l,2);
+        int[] pre = new int[3];
+        pre[0] = 1;
+        pre[1] = 2;
+        pre[2] = 3;
+
+        int[] in = new int[3];
+        in[0] = 2;
+        in[1] = 3;
+        in[2] = 1;
+        ConstructBinaryTreefromPreorderandInorderTraversal.buildTree(pre, in);
     }
 }
