@@ -8,15 +8,11 @@ public class Main {
       //  num[0] = 1;
         //Permutations.permute(num);
 
-        int[] pre = new int[3];
-        pre[0] = 1;
-        pre[1] = 2;
-        pre[2] = 3;
-
-        int[] in = new int[3];
-        in[0] = 2;
-        in[1] = 3;
-        in[2] = 1;
-        ConstructBinaryTreefromPreorderandInorderTraversal.buildTree(pre, in);
+        TreeNode tree = new TreeNode(3);
+        tree.left = new TreeNode(9);
+        tree.right = new TreeNode(20);
+        tree.right.left = new TreeNode(15);
+        tree.right.right = new TreeNode(7);
+        BinaryTreeZigzagLevelOrderTraversal.zigzagLevelOrder(tree);
     }
 }
