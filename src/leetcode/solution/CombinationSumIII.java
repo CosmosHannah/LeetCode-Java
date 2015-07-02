@@ -8,7 +8,7 @@ import java.util.List;
  */
 public class CombinationSumIII {
 
-    public static List<List<Integer>> combinationSum3(int k, int n) {
+    public List<List<Integer>> combinationSum3(int k, int n) {
 
         List<List<Integer>> result = new ArrayList<List<Integer>>();
         if(k<=0||n<1) return result;
@@ -16,13 +16,14 @@ public class CombinationSumIII {
         helper(k,n,1,new ArrayList<Integer>(),result);
         return result;
 
+
     }
 
-    public static void helper(int left, int target,int start, ArrayList<Integer> item, List<List<Integer>> result)
+    public void helper(int left, int target,int start, ArrayList<Integer> item, List<List<Integer>> result)
     {
         if(left==0&&target==0)
         {
-            result.add(item);
+            result.add(new ArrayList<Integer>(item));
             return;
         }
 
@@ -31,7 +32,7 @@ public class CombinationSumIII {
             return;
         }
 
-        for(int i=start;i<10&&i<target;i++)
+        for(int i=start;i<10&&i<=target;i++)
         {
             item.add(i);
             helper(left-1,target-i,i+1,item, result);
